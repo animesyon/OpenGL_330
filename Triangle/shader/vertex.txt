@@ -1,0 +1,17 @@
+
+#version 300 es
+
+precision mediump float;
+
+in vec3 vertex;
+in vec4 color;
+
+out vec4 kolor;
+
+uniform mat4 matrix;
+
+void main()
+{
+	kolor = color;
+	gl_Position =  matrix * vec4(vertex, 1.0);
+}
