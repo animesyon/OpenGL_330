@@ -1,6 +1,4 @@
 
-// GL_VERSION_1_5 GL_VERSION_2_0 GL_VERSION_3_0
-
 #include "framework.h"
 #include "square2.h"
 
