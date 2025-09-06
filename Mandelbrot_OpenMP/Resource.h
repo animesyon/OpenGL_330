@@ -21,8 +21,6 @@
 #define IDM_FRACTAL				121
 #define IDM_GO_BACK				122
 
-#define IDC_TEXT1				1001
-
 #define IDC_MYICON				2
 #ifndef IDC_STATIC
 #define IDC_STATIC				-1
